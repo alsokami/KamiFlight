@@ -1,0 +1,8 @@
+name: KamiFlight
+version: '${project.version}'
+main: me.alsokami.kamiflight.KamiFlight
+api-version: '1.20'
+commands:
+  fly:
+    description: "Enable the player to fly as they will."
+    usage: /<command>
