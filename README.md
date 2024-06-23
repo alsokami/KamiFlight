@@ -3,10 +3,7 @@
 This is the one and only **kamiflight** plugin. 
 This plugin allows players to fly as they will.
 **NOTE: THIS PLUGIN IS MAINLY CODED FOR 1.20.4 IF YOU USE VIAVERSION OR ANY OTHER VIA PLUGINS, YOU MIGHT ENCOUNTER ERRORS. I HAVE NOT ON MY PART. MAY VARY ON USERS.**
-# Kami Flight
 
-This is the one and only **kamiflight** plugin. 
-This plugin allows players to fly as they will.
 # PERMISSION MANAGEMENT
 
 In order to allow players to fly, you need to enable the **kamiflight.fly** permission.
