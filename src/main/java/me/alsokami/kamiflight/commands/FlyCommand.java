@@ -17,7 +17,7 @@ public class FlyCommand implements CommandExecutor {
 
         if (sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("flyplugin.fly")) {
+            if(player.hasPermission("kamiflight.fly")) {
                 if (list_of_flying_players.contains(player)) {
                     list_of_flying_players.remove(player);
                     player.setAllowFlight(false);
