@@ -21,11 +21,11 @@ public class FlyCommand implements CommandExecutor {
                 if (list_of_flying_players.contains(player)) {
                     list_of_flying_players.remove(player);
                     player.setAllowFlight(false);
-                    player.sendMessage("&c[ᴋᴀᴍɪᴋʀᴀꜰᴛ] ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ꜰʟʏɪɴɢ ᴀɴʏᴍᴏʀᴇ.");
+                    player.sendMessage("Disabled flight!");
                 } else if (!list_of_flying_players.contains(player)){
                     list_of_flying_players.add(player);
                     player.setAllowFlight(true);
-                    player.sendMessage("&a[ᴋᴀᴍɪᴋʀᴀꜰᴛ] ʏᴏᴜ ᴀʀᴇ ɴᴏᴡ ꜰʟʏɪɴɢ.");
+                    player.sendMessage("Enabled flight!");
                 }
 
             }
